@@ -1,0 +1,70 @@
+.how-work__article {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #2F281E;
+
+  margin-bottom: 66px;
+}
+
+.how-work__blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+
+.how-work__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.how-work__point h3 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+
+  color: #2F281E;
+
+  margin-bottom: 9px;
+}
+
+.how-work__point p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height, or 143% */
+
+
+  color: #544837;
+
+  margin-bottom: 27px;
+}
+
+.how-work__point p a {
+  text-decoration: underline;
+}
+
+.how-work__imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.how-work__img-1 {
+  max-width: 476px;
+  max-height: 822px;
+}
+
+.how-work__img-2 {
+  max-width: 478px;
+  max-height: 791px;
+}

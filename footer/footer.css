@@ -1,0 +1,26 @@
+.footer {
+  background: #3A5AFF;
+
+}
+
+.footer h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.footer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+
+  margin-bottom: 100px;
+}
+
+.footer p span {
+  margin-bottom: 10px;
+}

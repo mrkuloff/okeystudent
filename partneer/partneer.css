@@ -1,0 +1,44 @@
+.partneer {
+  background: #F2F2F2;
+}
+
+.partneer h2 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #2F281E;
+
+  margin-bottom: 35px;
+}
+
+.partneer__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.partneer__item-2 {
+  max-width: 229px;
+  max-height: 151px;
+}
+
+.partneer__item-1 {
+  max-width: 260px;
+  max-height: 159px;
+}
+
+.partneer__item-3 {
+  max-width: 357px;
+  max-height: 108px;
+}
+
+.partneer__item-4 {
+  max-width: 290px;
+  max-height: 73px;
+}
+
+

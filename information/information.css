@@ -1,0 +1,22 @@
+.information__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information__item img {
+  max-width: 335px;
+  max-height: 69px;
+}
+
+.information__item h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 55px;
+
+  color: #2F281E;
+
+  max-width: 540px;
+
+  margin-bottom: 41px;
+}

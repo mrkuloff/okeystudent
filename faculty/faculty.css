@@ -1,0 +1,125 @@
+.faculty {
+  background: #F2F2F2;
+}
+
+.faculty__title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #2F281E;
+
+  margin-bottom: 33px;
+}
+
+.faculty__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 37px;
+}
+
+.faculty__img {
+  margin-bottom: 9px;
+}
+
+.faculty__fac-name {
+  max-width: 207px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #2F281E;
+
+  margin-bottom: 7px;
+}
+
+.faculty__fac-about {
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #544837;
+  max-width: 189px;
+  height: 69px;
+
+  margin-bottom: 8px;
+}
+
+.faculty__fac-about-fkn {
+  margin-bottom: 15px;
+  max-width: 189px;
+  height: 36px;
+}
+
+.faculty__direction {
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+
+  max-width: 189px;
+  max-height: 36px;
+
+  color: #FFFFFF;
+
+  border-radius: 19px;
+
+  padding: 10px 0;
+}
+
+.faculty__background-blue {
+  background: #3A5AFF;
+}
+
+.faculty__background-yellow {
+  background: #F9D423;
+}
+
+.faculty__background-white-blue {
+  max-height: 52px;
+  background: #3CC5FF;
+}
+
+.faculty__background-orange {
+  background: #EB670F;
+}
+
+.faculty__background-red {
+  background: #F83600;
+}
+
+.faculty__click {
+
+  background: #3A5AFF;
+  border-radius: 4px;
+  padding: 20px 24px;
+  border: 0;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.faculty__form {
+  max-width: 424px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faculty__click:hover {
+  opacity: 0.7;
+}
