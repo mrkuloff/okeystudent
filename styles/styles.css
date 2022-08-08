@@ -1,0 +1,56 @@
+@import 'global_styles.css';
+@import "normalize.css";
+@import "/main/main.css";
+@import "/about/about.css";
+@import "/bot/bot.css";
+@import "/faculty/faculty.css";
+@import "/how-work/how-work.css";
+@import "/format/format.css";
+@import "/information/information.css";
+@import "/partneer/partneer.css";
+@import "/footer/footer.css";
+
+@font-face {
+  font-family: 'TT Travels';
+  src: local('TT Travels Black'), local('TTTravels-Black'),
+  url('/font/TTTravels-Black.woff') format('woff');
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: local('TT Travels Bold'), local('TTTravels-Bold'),
+  url('/font/TTTravels-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: local('TT Travels ExtraBold'), local('TTTravels-ExtraBold'),
+  url('/font/TTTravels-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: local('TT Travels Medium'), local('TTTravels-Medium'),
+  url('/font/TTTravels-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Travels';
+  src: local('TT Travels Regular'), local('TTTravels-Regular'),
+  url('/font/TTTravels-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

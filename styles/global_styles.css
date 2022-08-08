@@ -13,7 +13,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  font-family: Arial, sans-serif;
+  font-family: 'TT Travels', sans-serif;
   /* указать шрифт под проект*/
   font-size: 16px;
   font-weight: 400;
@@ -94,4 +94,8 @@ iframe {
 
 section {
   padding: 50px 0;
+}
+
+span {
+  display: block;
 }

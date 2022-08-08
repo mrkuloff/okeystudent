@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Окей, студент</title>
-  <link rel="stylesheet" href="global_styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
   <link type="Image/x-icon" href="favicon.ico" rel="icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preload" href="font/TTTravels-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="font/TTTravels-Medium.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="font/TTTravels-ExtraBold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="font/TTTravels-Black.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="font/TTTravels-Bold.woff" as="font" type="font/woff" crossorigin>
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -23,6 +29,412 @@
   <!-- /Yandex.Metrika counter -->
 </head>
 <body>
-  <img src="лендинг.png" alt="lending">
+  <header>
+    <section class="menu">
+      <div class="container">
+        <div class="menu__bar">
+          <div class="menu__logo">
+            <img class="menu__img" src="main/img/okey.svg" alt="hi">
+
+            <span>
+              <p class="menu__text-black">
+                окей, студент!
+              </p>
+              <p class="menu__text-medium">
+                студенты — абитуриентам
+              </p>
+            </span>
+
+          </div>
+
+          <ul class="menu__list" style="list-style: none">
+            <li class="menu__item">
+              <a href="#about">О проекте</a>
+            </li>
+            <li class="menu__item">
+              <a href="#bot">Чат-бот</a>
+            </li>
+            <li class="menu__item">
+              <a href="#podcast">Подкаст</a>
+            </li>
+            <li class="menu__item">
+              <a href="#clip">Клипы</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="main">
+      <div class="container">
+        <div class="main__list">
+          <div class="main__left">
+            <h1 class="main__text-main">
+              Узнай все об учебе в ВГУ из первых уст!
+            </h1>
+            <p class="main__text-submain">
+              «Окей, студент» — площадка, где реальные студенты и выпускники в формате «диалога на равных» расскажут абитуриентам все об обучении в Воронежском Государственном Университете.
+            </p>
+            <form action="#bot">
+              <button class="main__click">
+                Войти в чатик студентов
+              </button>
+            </form>
+          </div>
+          <div class="main__right">
+            <div class="main__up">
+              <img src="main/img/student.png" alt="student">
+              <div class="main__message-1">
+                <p>
+                  Работа по специальности —
+                  это реально!
+                </p>
+              </div>
+            </div>
+
+            <div class="main__down">
+              <div class="main__message-2">
+                <p>
+                  Сессии сложнее или легче
+                  ЕГЭ?? 😬
+                </p>
+              </div>
+              <img src="main/img/abitur.png" alt="abitur">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="about__article">
+          Окей, студент: о чем проект?
+        </h2>
+        <div class="about__block">
+          <h3>
+          <span>
+            <p>
+              Окей, студент!
+            </p> – специальный проект для абитуриентов ВГУ и их родителей, созданный самими студентами с целью помочь всем желающим получить самую важную информацию о поступлении, выборе факультета, студенческой жизни, а также дальнейших перспективах уже после вуза.
+          </span>
+            <span>
+            Ключевой формат проекта – общение абитуриента с чат-ботом на платформе Telegram. Такой формат был выбран для того, чтобы в разы облегчить поиск информации о поступлении на множестве различных сайтов.
+          </span>
+            <span>
+            Специально для абитуриентов наша команда собрала всё самое важное: официальные данные, нужные сведения, собственный опыт и опыт других студентов ВГУ - в одном месте. Всего несколько кликов – и всё, что вы так долго искали или боялись спросить у вас на экране!
+          </span>
+            <span>
+            Какие экзамены нужно сдавать для поступления на тот или иной факультет? Как будет развиваться студенческая жизнь в процессе обучения? Как выжить во время сессии? И что же делать после получения диплома? Ответы на все эти вопросы можно найти у нашего чат-бота.
+          </span>
+            <span>
+            Однако и это ещё не всё! Чтобы абитуриент лучше прочувствовал, какого это учиться в стенах ВГУ, мы приготовили подкасты, видео-обзоры и посты в нашей группе <a href="https://vk.com/okstudent">ВКонтакте</a>
+          </span>
+            <span>
+            «От студентов – абитуриенту!» – таков девиз нашего проекта.
+          </span>
+          </h3>
+          <img class="about__img" src="./about/img/ок%201.png" alt="Студенты ВГУ">
+        </div>
+      </div>
+    </section>
+    <section class="bot" id="bot">
+      <div class="container">
+        <h3 class="bot__article">
+          Ключевой формат
+        </h3>
+
+        <div class="bot__block">
+          <div class="bot__left">
+            <div class="bot__mes_block-1">
+              <div class="bot__message-1">
+                <img src="bot/img/mes1.png" alt="mes">
+                <p>
+                  <b>Окей, студент!</b> Расскажи о ВГУ?
+                </p>
+              </div>
+              <img class='bot__women' src="bot/img/women.png" alt="student">
+            </div>
+            <div class="bot__mes_block-2">
+              <img class='bot__men' src="bot/img/man.png" alt="student">
+              <div class="bot__message-2">
+                <img src="bot/img/mes2.png" alt="mes">
+                <p>
+                  Знаешь негласное правило поступающих? Чтобы узнать про универ еще больше, нужно поговорить со студентами вуза
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bot__right">
+            <h3>
+              <span><p>Чат-бот «Окей, студент»</p> — это не просто сборник «ответов на часто задаваемые вопросы», а погружение в жизнь реальных студентов.
+              </span><span>
+              С помощью него можно пообщаться со студентами пяти факультетов, они расскажут информацию, которая интересует школьника больше всего.
+              </span><span>
+              В результате – мы покажем то, каково это – учиться в ВГУ и жить в Воронеже – городе миллионнике, почему это классно и какие шансы у него для этого есть.
+              </span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faculty">
+      <div class="container">
+        <h2 class="faculty__title">
+          Возможности. Факультеты
+        </h2>
+
+        <div class="faculty__box">
+          <div class="faculty__item">
+            <img class="faculty__img" src="./faculty/img/fkn.png" alt="Лев Хакимов">
+            <h3 class="faculty__fac-name">
+              Компьютерных наук
+            </h3>
+            <h4 class="faculty__fac-about faculty__fac-about-fkn"><span>
+              Организатор секции ИБ VRNCTF
+              </span><span>
+              Проектная деятельность
+              </span>
+            </h4>
+            <p class="faculty__direction faculty__background-blue">
+              НАУКА
+            </p>
+          </div>
+          <div class="faculty__item">
+            <img class="faculty__img" src="./faculty/img/pmm.png" alt="Ирина Рябых">
+            <h3 class="faculty__fac-name">
+              ПММ
+            </h3>
+            <h4 class="faculty__fac-about"><span>
+              Председатель ССК ВГУ
+              </span><span>
+              «Хищные Бобры»
+              </span>
+            </h4>
+            <p class="faculty__direction faculty__background-yellow">
+              СПОРТ
+            </p>
+          </div>
+          <div class="faculty__item">
+            <img class="faculty__img" src="./faculty/img/econom.png" alt="Александр Проскурин">
+            <h3 class="faculty__fac-name">
+              Экономический
+            </h3>
+            <h4 class="faculty__fac-about"><span>
+              Дублёр руководителя
+              </span><span>
+              департамента образования науки
+            </span><span>
+              и молодёжной политики
+            </span><span>
+              Воронежской области
+            </span>
+            </h4>
+            <p class="faculty__direction faculty__background-white-blue">
+              МОЛОДЕЖНАЯ ПОЛИТИКА
+            </p>
+          </div>
+          <div class="faculty__item">
+            <img class="faculty__img" src="./faculty/img/law.png" alt="Ольга Киселева">
+            <h3 class="faculty__fac-name">
+              Юридический
+            </h3>
+            <h4 class="faculty__fac-about"><span>
+              Комиссар СПО «Вершина» ВГУ
+              </span><span>
+              Главный редактор
+              </span><span>
+              #ЮРВКУРСЕ ВГУ
+            </span>
+            </h4>
+            <p class="faculty__direction faculty__background-orange">
+              СТУДОТРЯДЫ
+            </p>
+          </div>
+          <div class="faculty__item">
+            <img class="faculty__img" src="./faculty/img/fiz.png" alt="Наталья">
+            <h3 class="faculty__fac-name">
+              Физический
+            </h3>
+            <h4 class="faculty__fac-about"><span>
+              Главный профорг физического
+              </span><span>
+              факультета, член студенческого
+              </span><span>
+              совета и стипендиальной
+            </span><span>
+              комиссии
+            </span>
+            </h4>
+            <p class="faculty__direction faculty__background-red">
+              ПРОФСОЮЗ
+            </p>
+          </div>
+        </div>
+
+        <form class="faculty__form" action="#bot">
+          <button class="faculty__click">
+            Пообщаться со студентами ВГУ в чат-боте
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+    <section class="how-work">
+      <div class="container">
+      <h2 class="how-work__article">
+        Чат-бот. Как это работает?
+      </h2>
+      <div class="how-work__blocks">
+        <div class="how-work__item">
+          <img src="how-work/img/1.png" alt="Первый пункт">
+
+          <div class="how-work__point">
+            <h3>
+              1. Войди в «Окей, студент»
+            </h3>
+            <p>
+              <span>
+                перейдите по ссылке в Telegram
+              </span>
+              <span>
+                <a href="https://t.me/okeystudent_bot">@okeystudent__bot</a>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="how-work__item">
+          <div class="how-work__point">
+            <h3>
+              2. Напиши /start
+            </h3>
+            <p>
+              до начала еще чуть-чуть
+            </p>
+          </div>
+          <img src="how-work/img/2.png" alt="Второй пункт">
+        </div>
+        <div class="how-work__item-2">
+          <div class="how-work__point">
+            <h3>
+              3. Изучай полученную
+              информацию
+            </h3>
+            <p>
+              и вливайся в студенческий вайб! сохраняй полезные ссылки, которые ты получишь в чате
+            </p>
+            <div class="how-work__imgs">
+              <img class="how-work__img-1" src="how-work/img/3-1.png" alt="Фото чата с Ангелиной">
+              <img class="how-work__img-2" src="how-work/img/3-2.png" alt="Фото чата с Ангелиной">
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section class="format">
+      <div class="container">
+        <div class="format__podcast-main">
+        <div class="format__podcast">
+          <h2 id="podcast">Подкасты</h2>
+          <img src="format/img/arow.png" alt="arrow">
+        </div>
+        <p class="format__subtitle"><span>
+          темы, которые волнуют абитуриентов и самих студентов
+        </span><span>
+          100% полезностей!
+        </span>
+        </p>
+
+        <div class="format__podcasts-all" id="vk_podcast_-23339074_456239040"></div>
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+        <script type="text/javascript">
+          (function() {
+            VK.Widgets.Podcast("vk_podcast_-23339074_456239040", "-23339074_456239040", 'b7335059e0ac958925');
+          }());
+        </script>
+
+        <div class="format__podcasts-all" id="vk_podcast_-23339074_456239033"></div>
+        <script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+        <script type="text/javascript">
+          (function() {
+            VK.Widgets.Podcast("vk_podcast_-23339074_456239033", "-23339074_456239033", 'ba1ec23225cdccceed');
+          }());
+        </script>
+        </div>
+
+        <div class="format__clip-main">
+          <div class="format__podcast">
+            <h2 id="clip">Клипы</h2>
+            <img src="format/img/arow.png" alt="arrow">
+          </div>
+          <p class="format__subtitle"><span>
+            актуальные вопросы через призму студентов в формате VK Клипов
+          </span>
+          </p>
+
+          <div class="format__clips">
+            <iframe src="https://vk.com/video_ext.php?oid=-196620333&id=456239134&hash=1ded4acf09b663f1&hd=2" width="333" height="660" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=-71991592&id=456241799&hash=849fb3940b9e998e&hd=2" width="333" height="660" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=-196620333&id=456239081&hash=3dadcbc380cc547d&hd=2" width="333" height="660" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="information">
+      <div class="container">
+        <div class="information__blocks">
+          <img class="information__img" src="./information/img/img.png" alt="Информация">
+          <div class="information__item">
+            <h2>Получай самую свежую информацию о ВГУ
+              от самих студентов
+              в нашей группе</h2>
+              <a href="https://vk.com/okstudent"><img src="information/img/vk.svg" alt="VK"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partneer">
+      <div class="container">
+        <h2>Партнеры</h2>
+        <div class="partneer__list">
+            <img class="partneer__item partneer__item-1" src="./partneer/img/dep-obr.png" alt="Департамент образования и молодежной политики ВО">
+            <img class="partneer__item partneer__item-2" src="./partneer/img/molprav.png" alt="Молодежное правительство ВО">
+            <img class="partneer__item partneer__item-3" src="./partneer/img/vsu.png" alt="Воронежский Государственный Университет">
+            <img class="partneer__item partneer__item-4" src="./partneer/img/daipyat.png" alt="Всероссийский волонтерский проект Дай пять">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="footer">
+      <div class="container">
+        <a href="https://vsu.ru">
+          <h2>
+            @ студенты, любящие свой вуз
+          </h2>
+        </a>
+        <p>
+          <span>
+            сайт, чат-бот, подкасты и видео в разработке! совсем скоро мы запустимся :)
+          </span>
+          <span>
+            ссылка на нашу группу в
+            <a href="https://vk.com/okstudent">
+              ВКонтакте
+            </a>
+          </span>
+          <span>
+            ссылка на
+            <a href="https://t.me/okeystudent_bot">
+              чат-бот
+            </a>
+          </span>
+        </p>
+      </div>
+    </section>
+  </footer>
 </body>
 </html>

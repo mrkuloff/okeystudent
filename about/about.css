@@ -1,0 +1,45 @@
+.about {
+  background: #FFC43B;
+}
+
+.about__article {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #000000;
+
+  margin-bottom: 40px;
+}
+
+.about__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__block h3 {
+  max-width: 736px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.about__block h3 span {
+  margin-bottom: 11px;
+}
+
+.about__block h3 span p {
+  display: inline-block;
+  font-weight: 800;
+}
+
+.about__block h3 span a {
+  color: #0077FF;
+  font-weight: 800;
+}
