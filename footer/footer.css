@@ -24,3 +24,23 @@
 .footer p span {
   margin-bottom: 10px;
 }
+
+.footer__back-to-top {
+  background: #3E64FF;
+  border-radius: 50%;
+  position: fixed;
+  bottom: -50px;
+  padding: 10px 12px;
+  right: 50px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.footer__back-to-top.active {
+  bottom: 50px;
+  transition: 0.3s all;
+}
+
+.footer__back-to-top svg {
+  fill: #ffffff;
+}
