@@ -1,40 +1,10 @@
 /*
 MENU
  */
-.menu__logo {
-  display: flex;
-  gap: 7px;
-  align-items: center;
-}
-
-.menu__text-black {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 37px;
-  line-height: 44px;
-
-  color: #000000;
-}
-.menu__text-medium {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  /* identical to box height, or 235% */
-
-  text-align: right;
-  letter-spacing: 3px;
-  text-transform: lowercase;
-
-  /* $pmsBlack7 */
-
-  color: #333333;
-
-  opacity: 0.7;
-}
-
 .menu__list {
-  display: inline-flex;
+  display: flex;
   gap: 104px;
+  flex-wrap: wrap;
 }
 
 .menu__item {
@@ -55,6 +25,7 @@ MENU
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /*
@@ -115,7 +86,6 @@ MENU
   gap: 67px;
   display: inline-flex;
   justify-content: space-between;
-  vertical-align: center;
 }
 
 .main__message-1 {
@@ -175,6 +145,65 @@ MENU
   color: #232323;
 }
 
+.main__img-student {
+  max-width: 246px;
+  max-height: 273px;
+}
+
+.main__img-abitur {
+  max-width: 201px;
+  max-height: 254px;
+}
+
 .main__click:hover {
   opacity: 0.7;
+}
+
+@media (max-width: 1040px) {
+  .main__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu__bar {
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 690px) {
+  .menu__bar {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .menu__list {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .main__text-main {
+    font-size: 42px;
+    line-height: 47px;
+  }
+
+  .main__text-submain {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .main__img-student {
+    max-width: 158px;
+    max-height: 175px;
+  }
+
+  .main__img-abitur {
+    max-width: 130px;
+    max-height: 165px;
+  }
+
+  .main__message-1 , .main__message-2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

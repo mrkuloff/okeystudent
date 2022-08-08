@@ -109,3 +109,17 @@
   top: 14px;
   left: 22px;
 }
+
+@media (max-width: 1170px) {
+  .bot__left {
+    display: none;
+  }
+
+  .bot__block {
+    display: block;
+  }
+
+  .bot__right {
+    max-width: 100%;
+  }
+}

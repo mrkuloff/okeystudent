@@ -16,9 +16,10 @@
 
 .partneer__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .partneer__item-2 {
@@ -39,6 +40,18 @@
 .partneer__item-4 {
   max-width: 290px;
   max-height: 73px;
+}
+
+@media (max-width: 420px) {
+  .partneer__item-3 {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 920px) {
+  .partneer__list {
+    gap: 20px;
+  }
 }
 
 

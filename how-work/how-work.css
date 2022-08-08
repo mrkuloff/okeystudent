@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .how-work__point h3 {
@@ -67,4 +68,34 @@
 .how-work__img-2 {
   max-width: 478px;
   max-height: 791px;
+}
+
+@media (max-width: 1040px) {
+  .how-work__imgs {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .how-work__imgs img {
+    max-width: 400px;
+
+  }
+
+  .how-work__imgs img:first-child {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .how-work__imgs img {
+    max-width: 200px;
+  }
+
+  .how-work__imgs img:first-child {
+    margin-bottom: 5px;
+  }
 }
